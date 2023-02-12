@@ -1,0 +1,22 @@
+.input {
+    border: 1px solid #D1D1D1;
+    border-radius: 35px;
+    width: 145px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.input:focus {
+    outline-color: #5f15c0;
+}
+
+.error {
+    border: 1px solid #CC1439;
+}
+
+.error:focus {
+    outline-color: #CC1439;
+}

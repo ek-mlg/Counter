@@ -1,0 +1,38 @@
+.button {
+    border-radius: 980px;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.blue {
+    background: #0071e3;
+}
+.blue:hover {
+    background: #1687f6;
+}
+
+.disabledBlue {
+    background: #0071e3;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.purple {
+    background: rgb(97 79 197);
+}
+
+.purple:hover {
+    background: #7c6bd9;
+}
+
+.disabledPurple {
+    background: #7c6bd9;
+    opacity: 0.5;
+    pointer-events: none;
+}

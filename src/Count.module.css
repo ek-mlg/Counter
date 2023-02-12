@@ -1,0 +1,73 @@
+.Description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Value {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Count {
+    background-image: linear-gradient(180deg, #269ef1, #7036be);
+    color: transparent;
+    -webkit-background-clip: text;
+    overflow: hidden;
+    font-size: 86px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.ValueSetting {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ErrorMessage {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #CC1439;
+    position: absolute;
+    bottom: 47px;
+    left: 10px;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.Inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
